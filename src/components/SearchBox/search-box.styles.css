@@ -2,9 +2,9 @@
 	-webkit-appearance: none;
 	border: none;
 	outline: none;
-	padding: 0px 10px;
-	line-height: 30px;
-	margin-bottom: 30px;
+	padding: 1rem 1.5rem;
+	line-height: 1rem;
+	margin-bottom: 2rem;
 	margin: auto;
 	width: 50%;
 	font-family: 'Black Ops One', cursive;
@@ -14,5 +14,11 @@
 @media only screen and (max-width: 600px) {
 	.search-box {
 		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.search-box {
+		width: 65%;
 	}
 }

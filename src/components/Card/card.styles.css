@@ -2,13 +2,15 @@
 	border-radius: 5px;
 	background: #6df239;
 	box-shadow: 8px 8px 0px #890920;
-	margin: 10px;
+	margin: 1rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	overflow: hidden;
+	width: 250px;
+	height: 250px;
 	transition: all 0.5s ease;
 }
 
@@ -19,9 +21,9 @@
 	bottom: 0;
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 10px;
+	padding-bottom: 1rem;
 	text-align: center;
-	padding: 3px;
+	padding: 1rem;
 	justify-content: flex-end;
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
 	transition: all 0.5s ease;
@@ -32,14 +34,19 @@
 	padding-bottom: 40%;
 }
 
+.userImage {
+	width: 100%;
+	height: 100%;
+}
+
 h2 {
 	font-family: 'Black Ops One', cursive;
-	font-size: 1em;
+	font-size: 1.5rem;
 	color: wheat;
 }
 
 p {
 	font-family: 'Source Code Pro', monospace;
-	font-size: 0.5em;
+	font-size: 1rem;
 	color: wheat;
 }

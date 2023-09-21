@@ -1,5 +1,17 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #b85fc2;
+	font-size: 16px;
+	position: relative;
+	min-width: 450px;
+	display: flex;
+	min-height: 100vh;
+}
+
 .App {
 	display: flex;
+	flex-grow: 1;
+	min-height: 100%;
 	flex-direction: column;
 	align-items: center;
 }
@@ -8,7 +20,7 @@ h1 {
 	font-family: 'Black Ops One', cursive;
 	text-align: center;
 	padding: 10px 20px;
-	font-size: 4em;
+	font-size: 10rem;
 	text-transform: uppercase;
 	color: #6df239;
 	-webkit-transform: skew(-5deg, -5deg) rotate(5deg);
@@ -23,7 +35,7 @@ h6 {
 	font-family: 'Black Ops One', cursive;
 	text-align: center;
 	padding: 10px 20px;
-	font-size: 1em;
+	font-size: 1rem;
 	color: #6df239;
 	text-shadow: 1px 1px 1px #890920;
 	-webkit-transform: skew(-5deg, -5deg) rotate(5deg);
@@ -34,10 +46,32 @@ h6 {
 
 a {
 	text-decoration: none;
+	position: absolute;
+	width: 100%;
+	justify-content: flex-end;
+	background-color: #5d0977;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.5rem;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 916px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+}
+
+@media (min-width: 916px) and (max-width: 1355px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+
+@media (min-width: 1355px) and (max-width: 1816px) {
+	h1 {
+		font-size: 7.5rem;
 	}
 }

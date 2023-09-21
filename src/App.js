@@ -27,22 +27,22 @@ function App() {
 		setSearchField(searchFieldString);
 	};
 
-	console.log(monsters);
 	return (
-		<div className="App">
-			<h1 className="app-title">Monsters Rolodex</h1>
-			<SearchBox className="monsters-search-box" onChangeHandler={onSearchChange} placeholder="search monsters" />
-			<CardList monsters={filteredMonsters} />
+		<>
+			<div className="App">
+				<h1 className="app-title">Monsters Rolodex</h1>
+				<SearchBox className="monsters-search-box" onChangeHandler={onSearchChange} placeholder="search monsters" />
+				<CardList monsters={filteredMonsters} />
+			</div>
 			<a
 				className="app-title"
 				href="https://www.linkedin.com/in/piyush-gaurav-94794b145/"
 				target="_blank"
-				title="Google in new tab"
+				title="LinkedIn profile in new tab"
 			>
 				<h6 className="app-title">Piyush Gaurav</h6>
 			</a>
-			<br />
-		</div>
+		</>
 	);
 }
 
