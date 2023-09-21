@@ -1,0 +1,45 @@
+.card-container {
+	border-radius: 5px;
+	background: #6df239;
+	box-shadow: 8px 8px 0px #890920;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.5s ease;
+}
+
+.card-details {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+	text-align: center;
+	padding: 3px;
+	justify-content: flex-end;
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
+	transition: all 0.5s ease;
+}
+
+.card-container:hover > .card-details {
+	height: 100%;
+	padding-bottom: 40%;
+}
+
+h2 {
+	font-family: 'Black Ops One', cursive;
+	font-size: 1em;
+	color: wheat;
+}
+
+p {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 0.5em;
+	color: wheat;
+}

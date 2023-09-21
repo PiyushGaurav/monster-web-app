@@ -1,0 +1,12 @@
+.search-box {
+	-webkit-appearance: none;
+	border: none;
+	outline: none;
+	padding: 0px 10px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	margin: auto;
+	width: 50%;
+	font-family: 'Black Ops One', cursive;
+	box-shadow: 4px 4px 0px #890920;
+}
