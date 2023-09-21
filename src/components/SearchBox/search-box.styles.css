@@ -10,3 +10,9 @@
 	font-family: 'Black Ops One', cursive;
 	box-shadow: 4px 4px 0px #890920;
 }
+
+@media only screen and (max-width: 600px) {
+	.search-box {
+		width: 80%;
+	}
+}

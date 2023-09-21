@@ -1,6 +1,7 @@
 .App {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 h1 {
@@ -23,5 +24,20 @@ h6 {
 	text-align: center;
 	padding: 10px 20px;
 	font-size: 1em;
-	color: #890920;
+	color: #6df239;
+	text-shadow: 1px 1px 1px #890920;
+	-webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+	transform: skew(-5deg, -5deg) rotate(5deg);
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 2.5em;
+	}
 }

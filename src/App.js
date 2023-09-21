@@ -11,7 +11,7 @@ function App() {
 	useEffect(() => {
 		fetch('https://jsonplaceholder.typicode.com/users')
 			.then(response => response.json())
-			.then(users => setMonsters([...users, ...users]));
+			.then(users => setMonsters(users));
 	}, []);
 
 	useEffect(() => {
@@ -33,7 +33,15 @@ function App() {
 			<h1 className="app-title">Monsters Rolodex</h1>
 			<SearchBox className="monsters-search-box" onChangeHandler={onSearchChange} placeholder="search monsters" />
 			<CardList monsters={filteredMonsters} />
-			<h6 className="app-title">XZee</h6>
+			<a
+				className="app-title"
+				href="https://www.linkedin.com/in/piyush-gaurav-94794b145/"
+				target="_blank"
+				title="Google in new tab"
+			>
+				<h6 className="app-title">Piyush Gaurav</h6>
+			</a>
+			<br />
 		</div>
 	);
 }
